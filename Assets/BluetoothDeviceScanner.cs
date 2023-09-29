@@ -6,17 +6,16 @@ using System;
 
 public class BluetoothDeviceScanner : MonoBehaviour
 {
-    public ScrollRect deviceListScrollView;
-    public TextMeshProUGUI deviceTextTemplate;
+    public ScrollRect deviceListScrollView; //unity object scroller
+    public TextMeshProUGUI deviceTextTemplate; //unity object text box 
     public OVRInput.Controller controller;
 
     private bool _scanning = false;
     private bool _connected = false;
     private List<string> _deviceAddresses = new List<string>();
-    private string targetDeviceName = "PCA004";
-    private string serviceUUIDName = "8aad8cd4-3830-45ee-a13e-74f0b01013ce";
-    private string characteristicUUIDName = "8aad46ab-3830-45ee-a13e-74f0b01013ce";
-
+    private string targetDeviceName = "PCA004"; 
+    private string serviceUUIDName = "8aad8cd4-3830-45ee-a13e-74f0b01013ce"; //NOT SURE IF THIS IS THE CORRECT
+    private string characteristicUUIDName = "8aad46ab-3830-45ee-a13e-74f0b01013ce"; // NOTSURE IF THIS IS CORRECT
     void Start()
     {
         BluetoothLEHardwareInterface.Initialize(true, false, () =>
@@ -53,7 +52,7 @@ public class BluetoothDeviceScanner : MonoBehaviour
                 BluetoothLEHardwareInterface.ConnectToPeripheral(address, null, null, (address, serviceUUID, characteristicUUID) =>
                 {
                     _connected = true;
-                  //  AddDeviceToList($"{address} (connected)");
+                  //  AddDeviceToList($"{address} (connected)"); //LIST all devices nearby 
                     Debug.Log("YES2");
                     Debug.Log(address);
                     Debug.Log(serviceUUID);
