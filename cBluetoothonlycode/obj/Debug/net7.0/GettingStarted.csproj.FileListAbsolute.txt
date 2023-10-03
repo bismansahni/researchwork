@@ -1,0 +1,15 @@
+/Users/bismansahni/GettingStarted/bin/Debug/net7.0/GettingStarted
+/Users/bismansahni/GettingStarted/bin/Debug/net7.0/GettingStarted.deps.json
+/Users/bismansahni/GettingStarted/bin/Debug/net7.0/GettingStarted.runtimeconfig.json
+/Users/bismansahni/GettingStarted/bin/Debug/net7.0/GettingStarted.dll
+/Users/bismansahni/GettingStarted/bin/Debug/net7.0/GettingStarted.pdb
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.AssemblyInfoInputs.cache
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.AssemblyInfo.cs
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.csproj.CoreCompileInputs.cache
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.dll
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/refint/GettingStarted.dll
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.pdb
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.genruntimeconfig.cache
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/ref/GettingStarted.dll
+/Users/bismansahni/GettingStarted/obj/Debug/net7.0/GettingStarted.csproj.AssemblyReference.cache

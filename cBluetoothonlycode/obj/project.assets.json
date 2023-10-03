@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "InTheHand.Net.Bluetooth/4.0.36": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/InTheHand.Net.Bluetooth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/InTheHand.Net.Bluetooth.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InTheHand.Net.Bluetooth/4.0.36": {
+      "sha512": "hLoiia8RW6K7RmbuD0Y4YhKP2WGjUkai3XXgRWGIOjME6a0jonyDVNIjnHTrDAVTF79xzr113KGRohpT6ho7lw==",
+      "type": "package",
+      "path": "inthehand.net.bluetooth/4.0.36",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "32feet-package-icon.png",
+        "inthehand.net.bluetooth.4.0.36.nupkg.sha512",
+        "inthehand.net.bluetooth.nuspec",
+        "lib/monoandroid10.0/InTheHand.Net.Bluetooth.dll",
+        "lib/monoandroid10.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net461/InTheHand.Net.Bluetooth.dll",
+        "lib/net461/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-android31.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-android31.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-ios16.1/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-ios16.1/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-windows10.0.22000/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-windows10.0.22000/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-windows7.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-windows7.0/InTheHand.Net.Bluetooth.xml",
+        "lib/netstandard2.0/InTheHand.Net.Bluetooth.dll",
+        "lib/netstandard2.0/InTheHand.Net.Bluetooth.xml",
+        "lib/netstandard2.1/InTheHand.Net.Bluetooth.dll",
+        "lib/netstandard2.1/InTheHand.Net.Bluetooth.xml",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.dll",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.pri",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.xml",
+        "lib/xamarinios10/InTheHand.Net.Bluetooth.dll",
+        "lib/xamarinios10/InTheHand.Net.Bluetooth.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "InTheHand.Net.Bluetooth >= 4.0.36"
+    ]
+  },
+  "packageFolders": {
+    "/Users/bismansahni/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/bismansahni/GettingStarted/GettingStarted.csproj",
+      "projectName": "GettingStarted",
+      "projectPath": "/Users/bismansahni/GettingStarted/GettingStarted.csproj",
+      "packagesPath": "/Users/bismansahni/.nuget/packages/",
+      "outputPath": "/Users/bismansahni/GettingStarted/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/bismansahni/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "InTheHand.Net.Bluetooth": {
+            "target": "Package",
+            "version": "[4.0.36, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
