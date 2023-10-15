@@ -32,13 +32,11 @@ class Program
                         {
                             client.Connect(endPoint);
 
-                            // If the connection is successful, you can now communicate with the device.
+                            // If the connection is successful,  communicate with the device.
                             Console.WriteLine("Connected to PCA004");
 
-                            // Perform communication with the connected device here.
-                            // For example, you can use client.GetStream() to read and write data.
-
-                            // Close the Bluetooth connection when you're done.
+                            
+                            // Close the Bluetooth connection  done.
                             client.Close();
                         }
                         catch (Exception ex)
