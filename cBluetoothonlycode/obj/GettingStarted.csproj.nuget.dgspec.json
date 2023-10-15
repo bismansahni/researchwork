@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bismansahni/GettingStarted/GettingStarted.csproj": {}
+    "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/GettingStarted.csproj": {}
   },
   "projects": {
-    "/Users/bismansahni/GettingStarted/GettingStarted.csproj": {
+    "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/GettingStarted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bismansahni/GettingStarted/GettingStarted.csproj",
+        "projectUniqueName": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/GettingStarted.csproj",
         "projectName": "GettingStarted",
-        "projectPath": "/Users/bismansahni/GettingStarted/GettingStarted.csproj",
+        "projectPath": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/GettingStarted.csproj",
         "packagesPath": "/Users/bismansahni/.nuget/packages/",
-        "outputPath": "/Users/bismansahni/GettingStarted/obj/",
+        "outputPath": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bismansahni/.nuget/NuGet/NuGet.Config"

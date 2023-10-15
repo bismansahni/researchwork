@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T4IyR8yTYzOXKj0AjROmlpjYtGcE0LLDmj9EQ93b1SyC1vRjSbHD3pmPyBlpIG2A3SbZji6FifQDeiOv7QW+Wg==",
+  "dgSpecHash": "X19ZPgrIy0m1KM0XRG6Eh/B7sPdLnBTg70WiuDALmj33d07jj7uyAQaD6rWL3NYMho+Gk3y6jvL6eQWYyyqCgQ==",
   "success": true,
-  "projectFilePath": "/Users/bismansahni/GettingStarted/GettingStarted.csproj",
+  "projectFilePath": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/GettingStarted.csproj",
   "expectedPackageFiles": [
     "/Users/bismansahni/.nuget/packages/inthehand.net.bluetooth/4.0.36/inthehand.net.bluetooth.4.0.36.nupkg.sha512"
   ],

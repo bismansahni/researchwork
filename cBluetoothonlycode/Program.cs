@@ -21,31 +21,34 @@ class Program
             {
                 // Establish a Bluetooth connection
                 BluetoothClient client = new BluetoothClient();
-                BluetoothSecurity.PairRequest(targetDevice.DeviceAddress, "1234"); // Replace with the correct PIN
-                BluetoothEndPoint endPoint = new BluetoothEndPoint(targetDevice.DeviceAddress, BluetoothService.SerialPort);
-
-                while (true)
+                if (targetDevice != null)
                 {
-                    try
+                    BluetoothSecurity.PairRequest(targetDevice.DeviceAddress, "1234"); // Replace with the correct PIN
+                    BluetoothEndPoint endPoint = new BluetoothEndPoint(targetDevice.DeviceAddress, BluetoothService.SerialPort);
+
+                    while (true)
                     {
-                        client.Connect(endPoint);
+                        try
+                        {
+                            client.Connect(endPoint);
 
-                        // If the connection is successful, you can now communicate with the device.
-                        Console.WriteLine("Connected to PCA004");
+                            // If the connection is successful, you can now communicate with the device.
+                            Console.WriteLine("Connected to PCA004");
 
-                        // Perform communication with the connected device here.
-                        // For example, you can use client.GetStream() to read and write data.
+                            // Perform communication with the connected device here.
+                            // For example, you can use client.GetStream() to read and write data.
 
-                        // Close the Bluetooth connection when you're done.
-                        client.Close();
+                            // Close the Bluetooth connection when you're done.
+                            client.Close();
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Connection error: " + ex.Message);
+                        }
+
+                        // Wait for 10 seconds before attempting to connect again
+                        Thread.Sleep(10000);
                     }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine("Connection error: " + ex.Message);
-                    }
-
-                    // Wait for 10 seconds before attempting to connect again
-                    Thread.Sleep(10000);
                 }
             }
             catch (Exception ex)
