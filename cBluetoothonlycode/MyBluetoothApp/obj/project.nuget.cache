@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JV7FJXKwu2OrrdqxQ1Z3HMP8b4qs8JYwJFlz4UttRnDss78/gOAzP7Xtd84nmO6bSvFOEOpVh6X4jfuTmF6iwA==",
+  "success": true,
+  "projectFilePath": "/Users/allisonbayro/researchwork/MyBluetoothApp/MyBluetoothApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/allisonbayro/.nuget/packages/inthehand.net.bluetooth/4.1.40/inthehand.net.bluetooth.4.1.40.nupkg.sha512",
+    "/Users/allisonbayro/.nuget/packages/linux.bluetooth/5.64.0/linux.bluetooth.5.64.0.nupkg.sha512",
+    "/Users/allisonbayro/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/allisonbayro/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/Users/allisonbayro/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
+    "/Users/allisonbayro/.nuget/packages/tmds.dbus/0.11.0/tmds.dbus.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
