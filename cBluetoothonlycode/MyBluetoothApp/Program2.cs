@@ -14,23 +14,26 @@ class Program
         BluetoothDeviceInfo[] devices = bluetoothClient.DiscoverDevices().ToArray();
 
         // Find the device with the name "PCA004".
-        BluetoothDeviceInfo? targetDevice = Array.Find(devices, device => device.DeviceName == "PCA004");
+        BluetoothDeviceInfo? targetDevice = Array.Find(devices, device => device.DeviceName == "PCAO04");
+        
 
-        if (targetDevice != null)
+        if (targetDevice != null) 
         {
             try
             {
                 // Establish a Bluetooth connection.
                 BluetoothClient client = new BluetoothClient();
+                
 
-                BluetoothSecurity.PairRequest(targetDevice.DeviceAddress, "1234"); // Replace with the correct PIN
-
+                BluetoothSecurity.PairRequest(targetDevice.DeviceAddress, "8aad8cd4-3830-45ee-a13e-74f0b01013ce"); // Replace with the correct PIN
+                Console.WriteLine("Trying to connect");
                 while (true)
                 {
                     try
                     {
                         // Try to connect using the device address.
                         client.Connect(targetDevice.DeviceAddress, BluetoothService.SerialPort);
+                        
 
                         // If the connection is successful, communicate with the device.
                         Console.WriteLine("Connected to PCA004");
@@ -57,6 +60,7 @@ class Program
         else
         {
             Console.WriteLine("Device PCA004 not found.");
-        }
     }
+}
+
 }

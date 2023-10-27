@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/allisonbayro/researchwork/MyBluetoothApp/MyBluetoothApp.csproj": {}
+    "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/MyBluetoothApp/MyBluetoothApp.csproj": {}
   },
   "projects": {
-    "/Users/allisonbayro/researchwork/MyBluetoothApp/MyBluetoothApp.csproj": {
+    "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/MyBluetoothApp/MyBluetoothApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/allisonbayro/researchwork/MyBluetoothApp/MyBluetoothApp.csproj",
+        "projectUniqueName": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/MyBluetoothApp/MyBluetoothApp.csproj",
         "projectName": "MyBluetoothApp",
-        "projectPath": "/Users/allisonbayro/researchwork/MyBluetoothApp/MyBluetoothApp.csproj",
-        "packagesPath": "/Users/allisonbayro/.nuget/packages/",
-        "outputPath": "/Users/allisonbayro/researchwork/MyBluetoothApp/obj/",
+        "projectPath": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/MyBluetoothApp/MyBluetoothApp.csproj",
+        "packagesPath": "/Users/bismansahni/.nuget/packages/",
+        "outputPath": "/Users/bismansahni/Documents/researchwork/cBluetoothonlycode/MyBluetoothApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/allisonbayro/.nuget/NuGet/NuGet.Config"
+          "/Users/bismansahni/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
