@@ -10,7 +10,7 @@ class Program
         BluetoothClient bluetoothClient = new BluetoothClient();
 
         // Discover nearby Bluetooth devices
-        BluetoothDeviceInfo[] devices = bluetoothClient.DiscoverDevices();
+        BluetoothDeviceInfo[] devices = BluetoothClient.DiscoverDevices();
 
         // Find the device with the name "PCA004"
         BluetoothDeviceInfo targetDevice = Array.Find(devices, device => device.DeviceName == "PCA004");
